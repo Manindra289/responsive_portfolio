@@ -4,11 +4,12 @@
     margin-right: 1rem;
     /* margin-top: 0.5rem;  */
     cursor: pointer;
-    
+    margin-top: 0.25rem;
 }
 .pic {
     border: 2px solid white;
     border-radius: 50px;
+
 }
 @media (max-width:640px) {
     .profile,.pic{
@@ -24,7 +25,7 @@
         height: 2.5rem;
         width: 2.5rem;
         /* margin-top: 0.25rem; */
-        margin-right: 0.25rem;
+        margin-right: 0.75rem;
     }
     #tp1{
         font-size: small;

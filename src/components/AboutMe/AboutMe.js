@@ -10,7 +10,7 @@ const AboutMe = () => {
         <hr className= 'mx-3 mt-2 p-0 mb-1 '/>
       </div>
       <div className='lg:overflow-scroll'>
-        <p className={['text-white lg:text-sm ml-6 mr-4 max-lg:text-sm mb-2 text-justify 2xl:text-3xl'].join(' ')}>
+        <p className={['text-white lg:text-sm ml-6 mr-4 max-lg:text-sm mb-2 text-justify 2xl:text-3xl pt-2'].join(' ')}>
         Hi! I'm Manindra, 
         My journey in web development started with a curiosity for how websites work, 
         which quickly evolved into a full-blown passion for creating seamless and efficient 
