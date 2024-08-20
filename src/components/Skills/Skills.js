@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Skills.module.css'
 import Skill_component from './Skill_component/Skill_component'
-const Skills = () => {
+const Skills = (props) => {
     let arr = [
         {
             name:"Web Development",
@@ -42,7 +42,7 @@ const Skills = () => {
         {
         arr.map(
                 (a)=>(
-                    <Skill_component data = {a} />
+                    <Skill_component data = {a} func={props.func} visfunc ={props.visfunc}/>
                 )
             )
         }

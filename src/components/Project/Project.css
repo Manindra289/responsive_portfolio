@@ -1,0 +1,36 @@
+.smallest_scn
+{
+    border-radius:35px;
+    background-color: rgba(6, 6, 6, 0.2);
+    backdrop-filter: blur(15px);
+    /* width: 85vw; */
+}
+.preview{
+    /* position: absolute;
+    top: 0;
+    height: 90%;
+    width: 90%;
+    z-index: +1;
+    display: flex;
+    justify-content: center; Align items horizontally in the center */
+    display: flex;
+    justify-content: center;
+    z-index: +1;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    /* visibility is hidden when not clicked when the icon is clicked, set to visilbe once again clicked */
+    visibility:hidden;
+  }
+@media  (max-width: 600px) {
+
+    .imge {
+        position: fixed;
+        top:2rem;
+        width: 100%;
+        height: 400px;
+    }
+    
+}

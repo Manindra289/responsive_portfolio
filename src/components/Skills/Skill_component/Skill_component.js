@@ -3,7 +3,13 @@ import './Skill_component.css'
 const Skill_component = (props) => {
   return (
     <>
-    <div className='s_item'>
+    <div className='s_item'  onClick={()=>{
+      console.log(props.data.name );
+      props.func({name:props.data.name});
+      let x = document.body.getElementsByClassName('preview')
+      x[0].style.visibility = "visible";
+      props.visfunc(true);
+    }}>
     <div className='s_i2 '>
             <h1 className='sih1'>{props.data.name}</h1>
             <h1 className='s_m' style={{
