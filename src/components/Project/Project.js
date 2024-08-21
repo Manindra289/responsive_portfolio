@@ -54,8 +54,6 @@ const Project = () => {
 
 
 
-
-
   return (
     <>
     <div className='w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
