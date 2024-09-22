@@ -56,13 +56,13 @@ const Project = () => {
 
   return (
     <>
-    <div className='w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
-      <div className=' max-lg:flex max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn' >
+    <div className='w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1 '>
+      <div className='max-lg:flex max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn ' >
         {/* <div className='absolute -top-10 max-lg:invisible'> */}
         <div className='row-span-1 col-span-12'>
           <Menu_bar data = {visible} func = {setvisible} func2 = {dispatch}/>
           </div>
-        <div className='flex flex-col lg:grid lg:row-span-12 lg:col-span-12 lg:w-[100%] lg:grid-rows-2 lg:grid-cols-12 p-2'>
+        <div className='flex flex-col lg:grid lg:row-span-12 lg:col-span-12 lg:w-[100%] lg:grid-rows-2 lg:grid-cols-12 p-2' >
           <div className=' col-span-12  lg:col-span-8 lg:justify-self-center '>
             <AboutMe/>
           </div>
