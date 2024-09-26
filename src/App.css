@@ -37,7 +37,10 @@
   }
 }
 html{
-  background-image: url('./assets/background3.jpg');
+  background-image: url('./assets/background.png');
   background-position: center;
   
+}
+*::selection{
+  background-color: rgb(219 39 119);
 }

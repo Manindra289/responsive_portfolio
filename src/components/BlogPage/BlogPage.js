@@ -84,16 +84,16 @@ const BlogPage = () => {
            {blog.map((element)=>(<BlogItem date={element.date} setblog_visible = {setblog_visible} setcurrent_blog = {setcurrent_blog} title={element.title} description={element.description}/>))} <div className='hidden'></div>
           </div> :<div className='hidden'></div> }
           {blog_visible===true ?
-          <div className='text-justify py-2 row-span-12 text-white rounded-3xl mx-3 bg-[#01010199] h-[100%] col-span-10 lg:col-span-9 px-4  overflow-y-scroll'>
+          <div className='text-justify py-2 row-span-12 text-white rounded-3xl mx-3 bg-black h-[100%] col-span-10 lg:col-span-9 px-4  overflow-y-scroll'>
             <div className='flex flex-col py-3 '>  
               <div className='flex flex-row items-center '>
-                <IoIosArrowRoundBack onClick={()=>{ setblog_visible(false) }} className='inline cursor-pointer hover:bg-pink-400 rounded-full p-0 ' fontSize={'2rem'} />
+                <IoIosArrowRoundBack onClick={()=>{ setblog_visible(false) }} className='inline cursor-pointer hover:bg-green-400 rounded-full p-0 ' fontSize={'2rem'} />
                 <h1 className='align-baseline pl-1'>{coln} </h1>
               </div>
               <h1 className=' font-bold text-center w-[100%]'> {current_blog.title}</h1>
               </div>
           {/* <IoIosArrowRoundBack onClick={()=>{ setblog_visible(false) }} className='inline p-0 hover:text-green-500' fontSize={'2rem'} /> <div className='inline-block w-[100%]'> <h1 className='inline-block  px-6 py-4 font-bold text-center'>     {current_blog.title}</h1> </div> */}
-            <p className='px-6 pb-4'>{current_blog.description}</p>
+            <p className='px-6 pb-4 selection:bg-pink-600'>{current_blog.description}</p>
           </div> : <div className='hidden'></div> }
       </div> 
 

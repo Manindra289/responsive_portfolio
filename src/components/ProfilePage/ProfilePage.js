@@ -25,12 +25,12 @@ const ProfilePage = () => {
                 <img alt='Manindra' src={myImg} className='h-60 w-60 rounded-full border-4 border-green-300 drop-shadow-2xl'/>
               </div>
               <div className={['mt-4 rounded-lg drop-shadow-2xl mx-2 max-sm:py-2 ', styles['bg']].join(' ')}>
-              <h1  className='2xl:text-5xl text-green-500 max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] py-1.5  max-sm:py-1 '>Name</h1>
+              <h1  className='2xl:text-5xl text-green-500 font-bold max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] py-1.5  max-sm:py-1 '>Name</h1>
               <hr className='border-white align-middle mx-5'/>
               <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] py-1.5 max-sm:py-1'>Manindra Khandyana</h1>
               </div>
               <div className={['mt-4 rounded-lg drop-shadow-2xl mx-2 max-sm:py-2 ', styles['bg']].join(' ')}>
-              <h1  className='2xl:text-5xl text-green-300 max-sm:p-0 p-[0.1rem]  pl-0 max-sm:text-base text-xl ml-[1.5rem] py-1.5 max-sm:py-1 '>About</h1>
+              <h1  className='2xl:text-5xl text-green-500 font-bold max-sm:p-0 p-[0.1rem]  pl-0 max-sm:text-base text-xl ml-[1.5rem] py-1.5 max-sm:py-1 '>About</h1>
               <hr className='border-white align-middle mx-5'/>
               <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] py-1.5 max-sm:py-1'>Student</h1>
               </div>
@@ -90,12 +90,12 @@ const ProfilePage = () => {
                 <h1 className={['mb-1 pt-2 align-middle text-white text-md font-bold  text-center mt-2 max-lg:text-lg 2xl:text-5xl max-lg:pt-2',styles['ah1']].join(' ')}>Compitative Programming</h1>
               </div>
 
-              <div className='flex mt-2 2xl:text-5xl text-green-500 max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-3xl ml-[1.5rem] font-bold '>
-                  <div className='mr-2'><FaLinkedin /> </div>
-                  <div className='mr-2'> <FaInstagram /> </div>
-                  <div className='mr-2'> <FaFacebookSquare /> </div>
-                  <div className='mr-2'> <FaXTwitter /></div>
-                  <div className='mr-2'> <FaTelegramPlane /></div>
+              <div className='flex mt-2 2xl:text-5xl text-pink-500 max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-3xl ml-[1.5rem] font-bold '>
+                  <div className='mr-4'><FaLinkedin className='hover:bg-white cursor-pointer rounded-sm'/> </div>
+                  <div className='mr-4'> <FaInstagram className='hover:bg-white cursor-pointer rounded-sm' /> </div>
+                  <div className='mr-4'> <FaFacebookSquare  className='hover:bg-white cursor-pointer rounded-sm'/> </div>
+                  <div className='mr-4'> <FaXTwitter className='hover:bg-white cursor-pointer rounded-sm' /></div>
+                  <div className='mr-4'> <FaTelegramPlane className='hover:bg-white cursor-pointer rounded-sm' /></div>
               </div>
               </div>
             </div>

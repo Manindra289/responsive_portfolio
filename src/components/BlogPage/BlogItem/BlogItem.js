@@ -18,7 +18,7 @@ const BlogItem = (props) => {
   }
   return (
     <div >
-      <button onClick={setting_blg} className='hover:bg-gray-500 cursor-pointer'>
+      <button onClick={setting_blg} className='hover:bg-black cursor-pointer rounded-lg'>
     <div className={[' rounded-lg drop-shadow-2xl mx-2 max-sm:py-2 my-2 bg-white '].join(' ')}>
         <h1  className='2xl:text-3xl text-left text-green-500 max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-lg mx-[1rem] py-1.5  max-sm:py-1 font-bold'>{props.title}</h1>
         <hr className='border-black align-middle mx-[1rem]'/>
