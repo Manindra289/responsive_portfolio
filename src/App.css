@@ -41,6 +41,13 @@ html{
   background-position: center;
   
 }
+@media (max-width: 1024px) {
+  html {
+    background-image: url('./assets/background3.jpg');
+    background-position: center;
+  }
+}
+
 *::selection{
   background-color: rgb(219 39 119);
 }

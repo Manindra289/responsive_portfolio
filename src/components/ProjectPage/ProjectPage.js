@@ -36,7 +36,7 @@ const ProjectPage = () => {
 
     <div className=' w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
       <div className=' max-lg:flex max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn' >
-          <div className='lg:row-span-8 lg:col-span-3 col-span-9  md:col-span-2  border-r-4 p-2 mt-5 mb-5 px-4 '>
+          <div className='lg:row-span-8 lg:col-span-3 col-span-9  md:col-span-2  lg:border-r-4 p-2 mt-5 mb-5 px-4 '>
                 <div className='lg:row-span-1 col-span-9'>
                     <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Projects</h1>
                     <hr className='border-white align-middle mx-4'/>
@@ -71,7 +71,7 @@ const ProjectPage = () => {
                 <IoIosArrowRoundBack onClick={()=>{ setproject_visible(false) }} className='inline cursor-pointer hover:bg-green-400 rounded-full p-0 ' fontSize={'2rem'} />
                 <h1 className='align-baseline pl-1'> {project[0].title} </h1>
               </div> */}
-              <h1 className=' font-bold text-center w-[100%]'> {project[0].title}</h1>
+              <h1 className='text-2xl max-sm:text-xl font-bold text-center w-[100%]'> {project[0].title}</h1>
               </div>
           {/* <IoIosArrowRoundBack onClick={()=>{ setblog_visible(false) }} className='inline p-0 hover:text-green-500' fontSize={'2rem'} /> <div className='inline-block w-[100%]'> <h1 className='inline-block  px-6 py-4 font-bold text-center'>     {current_blog.title}</h1> </div> */}
             <p className='px-6 pb-4 selection:bg-pink-600'>{project[0].description}</p>
