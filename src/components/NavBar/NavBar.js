@@ -9,7 +9,6 @@ import { useLocation } from 'react-router-dom';
 const NavBar = () => {
   let [state,func] = useState(1);
   const l = useLocation();
-  console.log(l.pathname);
   useEffect(()=>{
     changecol();
   })
