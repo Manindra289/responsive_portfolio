@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { act } from 'react'
 import Style from './Project.css'
 import AboutMe from '../AboutMe/AboutMe'
 // import 'bootstrap/dist/css/bootstrap.min.css'; 
@@ -11,6 +11,12 @@ import { useState,useReducer } from 'react';
 import webdevImg from '../../assets/Course_1_front_end.png';
 import MLImg from '../../assets/ML_Certificate.png';
 import myimg from '../../assets/myImg.png'
+import CPPimg from '../../assets/object_oriented_cpp.png'
+import AWSimg from '../../assets/aws_certificate.png'
+import SQLimg from '../../assets/sql_certificate.png'
+import JSimg from '../../assets/javascript_certificate.png'
+import Linuximg from '../../assets/linux_certificate.png'
+import Pythonimg from '../../assets/python_certificate.png'
 
 const Project = () => {
   const [visible,setvisible] = useState(false);
@@ -32,6 +38,36 @@ const Project = () => {
         state = MLImg;
         return state;
       }
+    else if(action.name === 'C++')
+    {
+      state = CPPimg;
+      return state;
+    }
+    else if(action.name === 'AWS')
+      {
+        state = AWSimg;
+        return state;
+      }
+      else if(action.name === 'SQL')
+        {
+          state = SQLimg;
+          return state;
+        }
+      else if(action.name === 'Javascript')
+      {
+        state = JSimg;
+        return state;
+      }
+      else if(action.name === 'Linux')
+      {
+          state = Linuximg;
+          return state;
+      }
+      else if(action.name === 'Python')
+        {
+            state = Pythonimg;
+            return state;
+        }
       else
       {
         state = 0;

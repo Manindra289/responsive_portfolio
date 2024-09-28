@@ -5,7 +5,7 @@ const Skills = (props) => {
     let arr = [
         {
             name:"Web Development",
-            compl: 25,
+            compl: 80,
         },
         {
             name:"Machine Learning",
@@ -16,19 +16,25 @@ const Skills = (props) => {
             compl:85,
         },
         {
+            name:"AWS",
+            compl:30
+        },
+        {
             name:"SQL",
             compl:70,
         },
         {
-            name:"Java",
-            compl:60,
+            name:"Javascript",
+            compl:60
         },
         {
-            name:"Spring Boot",
-            compl: "05",
+            name:"Python",
+            compl:40
         },
-        
-
+        {
+            name:"Linux",
+            compl:80
+        }
     ]
 
   return (
