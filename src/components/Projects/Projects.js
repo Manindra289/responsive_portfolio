@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Projects.module.css'
 import Project_component from './Project_component/Project_component';
+import { Link } from 'react-router-dom';
 const Projects = ()=>{
     return(
         <>
@@ -10,9 +11,9 @@ const Projects = ()=>{
         <h2 className={['text-base font-bold mb-0 ml-4  max-lg:text-sm 2xl:text-3xl text-[lightgrey] lg:text-sm',styles['ah1']].join(' ')}>Projects completed : 3</h2>
       </div>
       <div className='overflow-scroll mb-4 max-lg:pb-4 max-lg:h-[175px]'>
-        <Project_component title="Multiple disease prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/>
-        <Project_component title="Insurance Price prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/>
-        <Project_component title="Real estate price prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/>
+      <Link to='/Projects'>  <Project_component title="Multiple disease prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/></Link>
+      <Link to='/Projects'>  <Project_component title="Insurance Price prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/></Link>
+      <Link to='/Projects'>  <Project_component title="Real estate price prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/></Link>
       </div>
        </section>
         </>

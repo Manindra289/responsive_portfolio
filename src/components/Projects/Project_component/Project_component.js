@@ -2,12 +2,15 @@ import React from 'react'
 import styles from './Project_component.module.css'
 const Project_component = (props) => {
   return (
-    <div>
-        <hr className='mx-3 mt-2 p-0 mb-1'/>
-        <h1 className='text-white text-base font-bold  ml-4 max-lg:text-sm 2xl:text-3xl mb-0'>{props.title}</h1>
-        <h2 className=' lg:text-sm text-[lightgrey] text-sm font-bold  ml-4  max-lg:text-xs 2xl:text-2xl mb-0'>{props.time}</h2>
-        <h2 className='text-[lightgrey]  text-sm font-bold  ml-4 max-lg:text-xs 2xl:text-2xl mb-0'>{props.tech}</h2>
+<>
+    <hr className='mx-3 p-0 mt-1 '/>
+    <div className='hover:text-black rounded-md text-white hover:bg-white mx-3'>
+        
+        <h1 className='  text-base font-bold  max-lg:text-sm 2xl:text-3xl ml-1 pt-1 mt-1 mb-0'>{props.title}</h1>
+        <h2 className=' lg:text-sm text-[lightgrey] text-sm font-bold ml-1 max-lg:text-xs 2xl:text-2xl mb-0'>{props.time}</h2>
+        <h2 className='text-[lightgrey] mt-1  text-sm font-bold pb-1  ml-1 max-lg:text-xs 2xl:text-2xl mb-0'>{props.tech}</h2>
     </div>
+    </>
   )
 }
 
