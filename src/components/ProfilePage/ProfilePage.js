@@ -16,7 +16,7 @@ const ProfilePage = () => {
   return (
     <div className=' w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
       <div className=' max-lg:flex max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn' >
-          <div className='lg:row-span-8 lg:col-span-4 border-r-4 p-2 mt-5 '>
+          <div className='lg:row-span-8 lg:col-span-4 border-r-4 p-2 mt-5 mb-5'>
           <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Profile Section</h1>
           <hr className='border-white align-middle mx-4'/>
             
@@ -53,12 +53,9 @@ const ProfilePage = () => {
              
              <div className='lg:absolute lg:bottom-0'>
 
-              <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Skilled In</h1>
+              <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Interested In</h1>
               <hr className='border-white align-middle mx-4'/>
               <div className= ' mb-4  grid grid-cols-4 grid-rows-1 max-sm:grid-cols-1 max-lg:grid-cols-2 w-[100%] gap-5  max-sm:box-border p-4'>
-              
-              
-              
               <div className=' border-white border-2 justify-self-center rounded-2xl box-border p-2'>
                 <div className='flex justify-center'>
                   <img alt='Web development' src={webImgp} className='object-cover  w-32 h-24 rounded-2xl max-lg:w-[100%] max-lg:h-[80%]' />

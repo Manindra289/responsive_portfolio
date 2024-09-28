@@ -1,15 +1,18 @@
 
 import axios from 'axios';
+import { useEffect } from 'react';
 const CategoryItem = (props) => {
 
-    // useEffect(()=>{
+    useEffect(()=>{
+      let ele = document.body.getElementsByClassName('cls_x');
+        ele[0].style.backgroundColor = 'lightgreen';
+      
         
-    // },[])
+    },[])
 
    
     function Changeblg()
     {
-        console.log(props.title);
         props.setcoln(props.title);
         props.setblog_visible(false);
         // console.log(props.blogs)
@@ -17,10 +20,18 @@ const CategoryItem = (props) => {
         axios.get(`http://localhost:3001/Blogs/${x}`)
         .then( (res)=>{
             props.setblog(res.data);
-            console.log("DATA in change blg")
-            console.log(props.blog);
         })
         .catch((err)=>console.log(err))
+        let ele = document.body.getElementsByClassName('cls_x');
+        // ele[props.index].style.backgroundColor = 'Red';
+        let n = ele.length;
+        for(let i = 0;i<n;i++)
+        {
+          if(i === props.index)
+            ele[i].style.backgroundColor = 'lightgreen';
+          else
+            ele[i].style.backgroundColor = 'White';
+        }
         
        
     }
