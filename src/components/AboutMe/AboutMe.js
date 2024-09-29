@@ -17,6 +17,7 @@ const AboutMe = () => {
         user experiences. This curiosity has since transformed into a deep passion for 
         building seamless and efficient user experiences on the web. I thrive on the excitement 
         of uncovering new knowledge and broadening my horizons with every learning opportunity.
+        I'm committed to continuously refining my skills to contribute meaningfully to the ever-evolving digital world.
         
         </p>
         </div>
