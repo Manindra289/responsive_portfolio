@@ -9,7 +9,7 @@ const ProjectPage = () => {
     const [project_visible,setproject_visible] = useState(true);
     const [code_arr,setcode_arr] = useState([]);
     useEffect(()=>{
-        axios.get('http://localhost:3001/Projects')
+        axios.get('https://portfolio-backend-eight-ivory.vercel.app/Projects')
         .then((res)=>{
           //colnar = res.data
           let arr = res.data;
@@ -27,7 +27,7 @@ const ProjectPage = () => {
           })
         .catch((err)=>console.log(err))
     
-        axios.get('http://localhost:3001/Projects/MDPS')
+        axios.get('https://portfolio-backend-eight-ivory.vercel.app/Projects/MDPS')
         .then( (res)=>{ setproject(res.data)})
         .catch((err)=>console.log(err))
       },[])

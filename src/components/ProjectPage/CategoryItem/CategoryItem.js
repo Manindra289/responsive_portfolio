@@ -17,7 +17,7 @@ const CategoryItem = (props) => {
         props.setproject_visible(true);
         // console.log(props.blogs)
         let x = props.code;
-        axios.get(`http://localhost:3001/Projects/${x}`)
+        axios.get(`https://portfolio-backend-eight-ivory.vercel.app/Projects/${x}`)
         .then( (res)=>{
             props.setproject(res.data);
         })

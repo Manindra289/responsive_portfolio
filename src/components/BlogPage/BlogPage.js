@@ -19,14 +19,14 @@ const BlogPage = () => {
   const [current_blog, setcurrent_blog] = useState('');
   const [blog_visible,setblog_visible] = useState(false);
   useEffect(()=>{
-    axios.get('http://localhost:3001/Blogs')
+    axios.get('https://portfolio-backend-eight-ivory.vercel.app/Blogs')
     .then((res)=>{
       //colnar = res.data
       setcolnar(res.data);
       })
     .catch((err)=>console.log(err))
 
-    axios.get('http://localhost:3001/Blogs/Psychology')
+    axios.get('https://portfolio-backend-eight-ivory.vercel.app/Blogs/Psychology')
     .then( (res)=>{ setblog(res.data);})
     .catch((err)=>console.log(err))
   },[])
