@@ -2,14 +2,14 @@ import React from 'react'
 import myImg from '../../assets/myImg.png'
 import styles from './ProfilePage.module.css'
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import webImgp from '../../assets/web_img2.png'
 import mlImg from '../../assets/ml_img.png'
 import cmpImg from '../../assets/cp_img.png'
 import backendImg from '../../assets/backend_img.png'
+import { FaSquareGithub } from "react-icons/fa6";
 
 const ProfilePage = () => {
   
@@ -87,12 +87,11 @@ const ProfilePage = () => {
                 <h1 className={['mb-1 pt-2 align-middle text-white text-md font-bold  text-center mt-2 max-lg:text-lg 2xl:text-5xl max-lg:pt-2',styles['ah1']].join(' ')}>Compitative Programming</h1>
               </div>
 
-              <div className='flex mt-2 2xl:text-5xl text-pink-500 max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-3xl ml-[1.5rem] font-bold '>
-                  <div className='mr-4'><FaLinkedin className='hover:bg-white cursor-pointer rounded-sm'/> </div>
-                  <div className='mr-4'> <FaInstagram className='hover:bg-white cursor-pointer rounded-sm' /> </div>
-                  <div className='mr-4'> <FaFacebookSquare  className='hover:bg-white cursor-pointer rounded-sm'/> </div>
-                  <div className='mr-4'> <FaXTwitter className='hover:bg-white cursor-pointer rounded-sm' /></div>
-                  <div className='mr-4'> <FaTelegramPlane className='hover:bg-white cursor-pointer rounded-sm' /></div>
+              <div className='flex col-span-full justify-center 2xl:text-5xl  text-pink-500 max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-3xl ml-[1.5rem] font-bold '>
+                  <div className='mr-4 '><a rel="noreferrer" className={['max-lg:text-2xl',styles['linked']].join(' ')}   href='https://www.linkedin.com/in/manindrakhandyana' target='_blank'> <FaLinkedin className='hover:bg-white cursor-pointer rounded-sm'/> </a></div>
+                  <div className='mr-4'><a rel="noreferrer" className={['max-lg:text-2xl',styles['linked']].join(' ')}   href='https://github.com/Manindra289' target='_blank'> <FaSquareGithub className='hover:bg-white cursor-pointer rounded-sm' /> </a></div>
+                  <div className='mr-4'><a rel="noreferrer" className={['max-lg:text-2xl',styles['linked']].join(' ')}   href='https://www.instagram.com/manindra_khandyana' target='_blank'> <FaInstagram className='hover:bg-white cursor-pointer rounded-sm' /> </a></div>
+                  <div className='mr-4'><a rel="noreferrer" className={['max-lg:text-2xl',styles['linked']].join(' ')}   href='https://t.me/manindra2003' target='_blank'> <FaTelegramPlane className='hover:bg-white cursor-pointer rounded-sm' /></a></div>
               </div>
               </div>
             </div>

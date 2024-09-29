@@ -92,7 +92,13 @@ const Form = () => {
         </textarea>
         </div>
         <div className='mx-3 my-1'>
-        <button className='bg-white hover:bg-black hover:text-white text-black font-bold py-1 px-4 rounded-full text-base' type='reset'>Reset</button>
+        <button onClick={()=>{
+          setFormData({
+            email:"",
+            message:""
+          })
+
+        }} className='bg-white hover:bg-black hover:text-white text-black font-bold py-1 px-4 rounded-full text-base' type='reset'>Reset</button>
         <button   type='submit' id='sb1'
         className='  bg-[#0d6efd] py-1 px-4 mx-1 text-white font-bold rounded-full text-base'
         
