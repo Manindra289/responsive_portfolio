@@ -9,7 +9,7 @@ import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div>
+    <div className='min-h-[100vh]'>
     {/* <div className='acc2'>
           <div className='nav' >
             <NavBar/>
