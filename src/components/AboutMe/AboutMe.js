@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './AboutMe.module.css'
-import cv_loc from "../../assets/Manindra_Resume.pdf";
+import cv_loc from "../../assets/Manindra_Resume_New.pdf";
 const AboutMe = () => {
   return (
     <>
