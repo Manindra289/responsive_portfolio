@@ -74,7 +74,7 @@ const ProjectPage = () => {
               <h1 className='text-2xl max-sm:text-xl font-bold text-center w-[100%]'> {project[0].title}</h1>
               </div>
           {/* <IoIosArrowRoundBack onClick={()=>{ setblog_visible(false) }} className='inline p-0 hover:text-green-500' fontSize={'2rem'} /> <div className='inline-block w-[100%]'> <h1 className='inline-block  px-6 py-4 font-bold text-center'>     {current_blog.title}</h1> </div> */}
-            <p className='px-6 pb-4 selection:bg-pink-600'>{project[0].description}</p>
+            <p className='lg:px-6 pb-4 selection:bg-pink-600'>{project[0].description}</p>
           </div> : <div className='hidden'></div> }
 
 
