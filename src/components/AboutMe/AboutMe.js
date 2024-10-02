@@ -18,7 +18,6 @@ const AboutMe = () => {
         building seamless and efficient user experiences on the web. I thrive on the excitement 
         of uncovering new knowledge and broadening my horizons with every learning opportunity.
         his curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web.
-        his curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web.
         </p>
         </div>
         <div className={[' lg:my-2 2xl:bottom-6 lg:text-sm max-lg:pb-4 2xl:text-3xl',styles['l_and_c']].join(' ')}>
