@@ -44,7 +44,7 @@ const ProfilePage = () => {
               <div>
 
               <p className={['text-white max-lg:mb-5 lg:text-sm ml-6 mr-6 max-lg:text-sm mb-2 text-justify 2xl:text-3xl pt-2'].join(' ')}>
-              Hi! I'm Manindra, My journey in web development started with a curiosity for how websites work, which quickly evolved into a full-blown passion for creating seamless and efficient user experiences. This curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web. I thrive on the excitement of uncovering new knowledge and broadening my horizons with every learning opportunity. his curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web.
+              Hi! I'm Manindra, My journey in web development started with a curiosity for how websites work, which quickly evolved into a full-blown passion for creating seamless and efficient user experiences. This curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web. I thrive on the excitement of uncovering new knowledge and broadening my horizons with every learning opportunity.
               </p>
 
               </div>
