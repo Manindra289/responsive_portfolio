@@ -92,8 +92,8 @@ const Project = () => {
 
   return (
     <>
-    <div className='w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1 '>
-      <div className='max-lg:flex max-lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn ' >
+    <div className='w-[100vw]  lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1 '>
+      <div className='max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[700px] w-[85vw] smallest_scn ' >
         {/* <div className='absolute -top-10 max-lg:invisible'> */}
         <div className='row-span-1 col-span-12'>
           <Menu_bar data = {visible} func = {setvisible} func2 = {dispatch}/>

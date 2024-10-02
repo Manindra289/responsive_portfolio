@@ -14,8 +14,8 @@ import { FaSquareGithub } from "react-icons/fa6";
 const ProfilePage = () => {
   
   return (
-    <div className=' w-[100vw] max-lg:mb-10 lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
-      <div className=' max-lg:flex max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn' >
+    <div className=' w-[100vw] max-lg:mb-10 lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
+      <div className=' max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[700px] w-[85vw] smallest_scn ' >
           <div className='lg:row-span-8 lg:col-span-4 lg:border-r-4 p-2 mt-5 mb-5'>
           <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Profile Section</h1>
           <hr className='border-white align-middle mx-4'/>
@@ -43,7 +43,7 @@ const ProfilePage = () => {
                 <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Description</h1></div>
               <div>
 
-              <p className={['text-white lg:text-sm ml-6 mr-6 max-lg:text-sm mb-2 text-justify 2xl:text-3xl pt-2'].join(' ')}>
+              <p className={['text-white max-lg:mb-5 lg:text-sm ml-6 mr-6 max-lg:text-sm mb-2 text-justify 2xl:text-3xl pt-2'].join(' ')}>
               Hi! I'm Manindra, My journey in web development started with a curiosity for how websites work, which quickly evolved into a full-blown passion for creating seamless and efficient user experiences. This curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web. I thrive on the excitement of uncovering new knowledge and broadening my horizons with every learning opportunity. his curiosity has since transformed into a deep passion for building seamless and efficient user experiences on the web.
               </p>
 

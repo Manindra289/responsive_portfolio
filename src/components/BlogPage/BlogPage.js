@@ -33,8 +33,8 @@ const BlogPage = () => {
 
 
   return (
-    <div className=' w-[100vw] lg:h-[100vh] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
-      <div className=' max-lg:flex max-lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 lg:self-center justify-self-center lg:h-[85vh] w-[85vw] smallest_scn' >
+    <div className=' w-[100vw] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
+      <div className=' max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[700px] w-[85vw] smallest_scn ' >
       <div className='lg:row-span-8 lg:col-span-3 col-span-9  md:col-span-2  lg:border-r-4 p-2 mt-5 mb-5 px-4 '>
       <div className='lg:row-span-1 col-span-9'>
             <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Blogs Category</h1>
@@ -77,7 +77,7 @@ const BlogPage = () => {
               <h1 className=' font-bold text-center w-[100%]'> {current_blog.title}</h1>
               </div>
           {/* <IoIosArrowRoundBack onClick={()=>{ setblog_visible(false) }} className='inline p-0 hover:text-green-500' fontSize={'2rem'} /> <div className='inline-block w-[100%]'> <h1 className='inline-block  px-6 py-4 font-bold text-center'>     {current_blog.title}</h1> </div> */}
-            <p className='px-6 pb-4 selection:bg-pink-600'>{current_blog.description}</p>
+            <p className='lg:px-6 pb-4 selection:bg-pink-600'>{current_blog.description}</p>
           </div> : <div className='hidden'></div> }
       </div> 
 

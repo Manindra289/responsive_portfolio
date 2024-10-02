@@ -37,13 +37,13 @@
   }
 }
 html{
-  background-image: url('./assets/background.png');
+  background-image: url('./assets/background6.png');
   background-position: center;
   
 }
 @media (max-width: 1024px) {
   html {
-    background-image: url('./assets/background3.jpg');
+    background-image: url('./assets/background6.png');
     background-position: center;
   }
 }

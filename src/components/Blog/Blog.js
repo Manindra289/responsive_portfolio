@@ -9,7 +9,7 @@ const Blog = () => {
         <h1 className={['text-white text-xl font-bold  ml-4 pt-2 max-lg:text-base 2xl:text-5xl mb-0 mt-2',styles['ah1']].join(' ')}>Blogs</h1>
         <hr className='mx-3 mt-2 p-0 mb-1'/>
       </div>
-      <div className='flex flex-col overflow-scroll'>
+      <div className='flex flex-col overflow-scroll max-lg:pb-5'>
         <Link to={'/Blogs'}> <BlogItem title="Psychology"/></Link>
         <Link to={'/Blogs'}><BlogItem title="Philosophy"/></Link>
         <Link to={'/Blogs'}><BlogItem title="See more ... "/></Link>
