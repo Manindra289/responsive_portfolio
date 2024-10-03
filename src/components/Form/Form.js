@@ -41,12 +41,13 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormData({
-      email: "",
-      message: ""
-    })
+    
     
     if (isValid) {
+      setFormData({
+        email: "",
+        message: ""
+      })
       alert("Form submitted successfully!");
       emailjs.sendForm('service_h7x4oyc', 'template_xs3pguz', e.target,'UtCZOztOdliNpJ-YW')
       .then(
