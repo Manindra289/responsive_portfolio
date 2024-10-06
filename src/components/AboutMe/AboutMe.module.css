@@ -50,3 +50,6 @@ hr{
     border: 1px solid #fff;
     opacity: 1.0;  
 }
+::-webkit-scrollbar {
+    width: 0px;
+  }
