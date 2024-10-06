@@ -3,3 +3,22 @@
     height: 95%;
     width: 98%;
 }
+.bg{
+    ::-webkit-scrollbar {
+        width: 10px;
+        color: red;
+        height: 0px;
+        
+    }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: black; 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: red; 
+      }
+}

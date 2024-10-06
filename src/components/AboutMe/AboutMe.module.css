@@ -3,7 +3,9 @@
     height: 95%;
     width: 99%;
     box-sizing: border-box;
+    
 }
+
 .linked {
     background-color:#0d6efd;
     color: white;
@@ -52,4 +54,14 @@ hr{
 }
 ::-webkit-scrollbar {
     width: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+    width: 10px;
+    background: red; 
+    width: 10px;
+}
+/* Track */   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
   }
