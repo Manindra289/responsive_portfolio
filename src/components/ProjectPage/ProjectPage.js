@@ -35,10 +35,10 @@ const ProjectPage = () => {
   return (
 
     <div className=' w-[100vw] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
-      <div className=' max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[650px] w-[85vw] smallest_scn ' >
+      <div className=' max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[650px] w-[85vw] max-w-[1360px] max-h-[700px] smallest_scn ' >
           <div className='lg:row-span-8 lg:col-span-3 col-span-9  md:col-span-2  lg:border-r-4 p-2 mt-5 mb-5 px-4 '>
                 <div className='lg:row-span-1 col-span-9'>
-                    <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Projects</h1>
+                    <h1  className=' text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Projects</h1>
                     <hr className='border-white align-middle mx-4'/>
                 </div>
 
@@ -57,12 +57,7 @@ const ProjectPage = () => {
         </div>
         <div className='lg:row-span-8 col-span-9 lg:px-4 grid grid-flow-row lg:grid-rows-12 lg:grid-cols-3 mt-5 mb-5 box-border overflow-scroll '>
           
-        {/* {project_visible===false ?
-          <div className='lg:row-span-1 lg:col-span-9 sm:w-[100%]'>
-            <h1  className='2xl:text-5xl  text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>MDPS</h1>
-            <hr className='border-white col-span-3 align-middle mx-4'/>
-          </div> : <div className='hidden'></div>  
-        } */}
+        
           
           {project_visible===true ?
           <div className='text-justify py-2 row-span-12 text-white rounded-3xl mx-3 bg-black h-[100%] col-span-10 lg:col-span-9 px-4  overflow-y-scroll'>

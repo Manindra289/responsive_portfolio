@@ -45,6 +45,9 @@ const NavBar = () => {
             backgroundColor:(state===1)?"black":"rgba(128, 128, 128, 0.3)",
             borderStartStartRadius:"2rem",
             borderEndStartRadius:"2rem",
+            borderStartEndRadius:(state===1)?"2rem":"0rem",
+            borderEndEndRadius:(state===1)?"2rem":"0rem"
+            
            }}>
             <h1 className='nav_item '><IoMdHome /><span className='sp'>Home</span></h1></Link>
           <Link onClick={()=>{
@@ -73,7 +76,9 @@ const NavBar = () => {
           }}  style={{textDecoration:"none",
             backgroundColor:(state===4)?"black":"rgba(128, 128, 128, 0.3)",
             borderEndEndRadius:"2rem",
-            borderStartEndRadius:"2rem"
+            borderStartEndRadius:"2rem",
+            borderStartStartRadius:(state===4)?"2rem":"0rem",
+            borderEndStartRadius:(state===4)?"2rem":"0rem"
            }}>
             <h1 className='nav_item'><MdOutlineAccountCircle /><span className='sp'>Profile</span></h1></Link>
     </div>

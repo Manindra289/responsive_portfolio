@@ -34,10 +34,10 @@ const BlogPage = () => {
 
   return (
     <div className=' w-[100vw] lg:grid-rows-1 lg:grid-cols-1 grid grid-cols-1'>
-      <div className=' max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[650px] w-[85vw] smallest_scn ' >
+      <div className=' max-lg:flex max-lg:mb-10 lg:mb-10 max-lg:flex-col lg:grid lg:grid-rows-8 lg:grid-cols-12 max-lg:mt-14 mt-16 justify-self-center lg:h-[85vh] min-h-[650px] w-[85vw]  max-w-[1360px] max-h-[700px] smallest_scn ' >
       <div className='lg:row-span-8 lg:col-span-3 col-span-9  md:col-span-2  lg:border-r-4 p-2 mt-5 mb-5 px-4 '>
       <div className='lg:row-span-1 col-span-9'>
-            <h1  className='2xl:text-5xl text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Blogs Category</h1>
+            <h1  className=' text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>Blogs Category</h1>
             <hr className='border-white align-middle mx-4'/>
       </div>
       
@@ -57,7 +57,7 @@ const BlogPage = () => {
 
       {blog_visible===false ?
           <div className='lg:row-span-1 lg:col-span-9 sm:w-[100%]'>
-            <h1  className='2xl:text-5xl  text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>{coln}</h1>
+            <h1  className=' text-white max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-xl ml-[1.5rem] font-bold'>{coln}</h1>
             <hr className='border-white col-span-3 align-middle mx-4'/>
           </div> : <div className='hidden'></div> }
           {blog_visible===false ? <div className='grid col-span-10 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:col-span-9 px-4 w-[100%]'>
