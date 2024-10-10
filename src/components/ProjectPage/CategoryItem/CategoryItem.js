@@ -39,7 +39,7 @@ const CategoryItem = (props) => {
 
     <div>
         <button onClick={Changeblg} className={['cls_x2 hover:bg-green-400 active:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 box-content mt-4 w-[100%] rounded-lg drop-shadow-2xl max-sm:py-2 bg-white '].join(' ')}>
-              <h1  className=' text-black  hover:bg-green-400 font-bold max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-md py-1.5  max-sm:py-1 '>{props.title}</h1>
+              <h1  className=' text-black hover:rounded-lg   hover:bg-green-400 font-bold max-sm:p-0 p-[0.1rem] pl-0 max-sm:text-base text-md py-1.5  max-sm:py-1 '>{props.title}</h1>
         </button>
     </div>
   )
