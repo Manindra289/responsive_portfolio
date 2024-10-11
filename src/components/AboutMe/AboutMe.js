@@ -6,7 +6,7 @@ const AboutMe = () => {
     <>
     <section className={['lg:grid lg:relative max-lg:pb-2 lg:box-border w-[100%] h-[100%] rounded-3xl lg:overflow-scroll mb-2',styles['bg']].join(' ')}>
       <div className='lg: h-[50px]'>
-        <h1 className={['mb-1 pt-2 align-middle text-white text-xl font-bold  ml-4 mt-2 max-lg:text-lg  max-lg:pt-2',styles['ah1']].join(' ')}><strong>About me </strong></h1>
+        <h1 className={['mb-1 pt-2 align-middle text-white text-xl font-bold  ml-4 mt-2 max-lg:text-lg  max-lg:pt-2',styles['ah1']].join(' ')}>About me </h1>
         <hr className= 'mx-3 mt-2 p-0 mb-1 '/>
       </div>
       <div className='lg:overflow-scroll '>
