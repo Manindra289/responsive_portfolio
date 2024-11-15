@@ -13,9 +13,9 @@ const Projects = ()=>{
       </div>
       <div className='overflow-scroll mb-4 max-lg:pb-4 max-lg:h-[175px]'>
       <Link to='/Projects'>  <Project_component title="Multiple disease prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/></Link>
-      <Link to='/Projects'>  <Project_component title="Insurance Price prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/></Link>
       <Link to='/Projects'>  <Project_component title="Real estate price prediction system" time="Jan 2023 to Apr 2023" tech="Machine Learning"/></Link>
-      <Link to='/Projects'>  <Project_component title="Weather Application using React" time="Jan 2024 to Apr 2024" tech="Machine Learning"/></Link>
+      <Link to='/Projects'>  <Project_component title="Weather Application using React" time="Jan 2024 to Apr 2024" tech="Web Development"/></Link>
+      <Link to='/Projects'>  <Project_component title="Personal Portfolio" time="May 2024 to Jul 2024" tech="Web Development"/></Link>
       </div>
        </section>
         </>
